@@ -1,0 +1,10 @@
+#include<stdio.h>
+#define MAX(a,b) a>b?a:b
+#define MAXIMUM(a,b,c) MAX(a,b)>c?MAX(a,b):c
+int main()
+{
+   int a,b,c;
+   printf("\n enter the three numbers:");
+   scanf("%d%d%d",&a,&b,&c);
+   printf("\n Maximum of Number=%d",MAXIMUM(a,b,c));
+}
