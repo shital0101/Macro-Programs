@@ -1,0 +1,13 @@
+/* Define a macro EQUALNUM to compare two numbers a&b which gives 1 if they are equal & 0 otherwise. Use this in main */
+#include<stdio.h>
+#define EQUALNUM(a,b) a==b?1:0
+int main()
+{
+    int a,b;
+    printf("\n enter the two numbers:");
+    scanf("%d%d",&a,&b);
+    if(EQUALNUM(a,b)==1)
+      printf("\n numbers are same");
+    else
+      printf("\n numbers are not same");
+}
