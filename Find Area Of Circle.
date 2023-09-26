@@ -1,0 +1,11 @@
+/* Write the C program to find the area of circle using PI as macro */
+#include<stdio.h>
+#define PI 3.14
+int main()
+{
+    float r,a;
+    printf("\n enter the radius:");
+    scanf("%f",&r);
+    a=PI*r*r;
+    printf("\n Area of Circle=%f",a);
+}
