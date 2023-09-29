@@ -1,0 +1,9 @@
+#include<stdio.h>
+#define AREA(l,b) l*b
+int main()
+{
+    float l,b;
+    printf("\nenter the length & breadth:");
+    scanf("%f%f",&l,&b);
+    printf("\nArea Of Rectangle=%f",AREA(l,b));
+}
