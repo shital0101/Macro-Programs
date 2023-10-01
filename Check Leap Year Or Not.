@@ -1,0 +1,12 @@
+#include<stdio.h>
+#define LEAP(y) y%4==0?1:0
+int main()
+{
+   int y;
+   printf("\n enter the year:");
+   scanf("%d",&y);
+   if(LEAP(y))
+     printf("\n Year is Leap Year.");
+   else
+     printf("\n Year is not Leap Year.");
+}
