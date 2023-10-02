@@ -1,0 +1,10 @@
+#include<stdio.h>
+#define ADD(a,b) a+b
+#define ADD1(a,b,c) ADD(a,b)+c
+int main()
+{
+    int a,b,c;
+    printf("\n enter the three numbers:");
+    scanf("%d%d%d",&a,&b,&c);
+    printf("\n Addition Of Three Numbers=%d",ADD1(a,b,c));
+}
